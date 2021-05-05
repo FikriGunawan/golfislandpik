@@ -99,8 +99,8 @@ AOS.init();
 $('.carouselOneSlider').addClass('owl-carousel owl-theme').owlCarousel({
 	margin: 0,
 	responsiveClass: true,
-	// autoplay: true,
-	// loop: true,
+	autoplay: true,
+	loop: true,
 	nav: true,
 	dots: true,
 	animateOut: 'fadeOut',

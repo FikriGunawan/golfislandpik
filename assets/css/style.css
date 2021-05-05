@@ -451,6 +451,8 @@
 	nav .menu ul li a{position: relative;top: 35%;}
 	nav .menu ul li ul{display: none;transition: all .3s;}
 	nav .menu ul li:hover ul{display: block;position: absolute;z-index: 10;padding: 2% 5%;top: 100%;left: 0;width: 100vw;height: auto;background: #335D40;transition: all .3s;}
+	nav .menu ul li:nth-child(1):hover ul{min-height: 23vh;padding: 2% 5% 2% 4%;}
+	nav .menu ul li:nth-child(2):hover ul{min-height: 23vh;padding: 2% 5% 2% 20%;}
 	nav .menu ul li:hover ul li{display: block;text-align: center;padding: 0.3% 0;}
 	nav .menu ul li:hover ul li a:hover{color: #81AA6D !important;}
 	nav .social{padding: 0.7% 5%;background: #F2F2F2;}

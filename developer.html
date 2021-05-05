@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
+  	<title>Developer | Golf Island Pantai Indah Kapuk</title>
+  	<link rel="shortcut icon" href="assets/images/logoIcon.ico">
+  	<!-- CDN CSS -->
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  	<!-- Custom CSS -->
+  	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/cssmenu/styles.css" />
+</head>
+<body>
+
+	<!-- Navigation -->
+    <div id="goTop"></div>
+    <nav class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 px-lg-5p">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-9 col-lg-4 px-m-0 px-lg-3 logo">
+                            <a href="index.html"><img class="img-fluid" src="assets/images/logoGolfIsland.png" alt="Golf Island PIK" /></a>
+                            <a href="index.html"><img class="img-fluid" src="assets/images/logoEbony2.png" alt="Golf Island PIK" /></a>
+                        </div>
+                        <div class="col-3 col-lg-8 px-m-0 px-lg-3 menu">
+                            <ul>
+                                <li class="active">
+                                    <a>Tentang Kami</a>
+                                    <ul>
+                                        <li><a href="developer.html">Developer</a></li>
+                                        <li><a href="konsep-golf-island.html">Konsep Golf Island</a></li>
+                                        <li><a href="konsep-ebony-2.html">Konsep Ebony 2</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a>Produk Kami</a>
+                                    <ul>
+                                        <li><a href="golf-island.html">Golf Island</a></li>
+                                        <li><a href="ebony-2.html">Ebony 2</a></li>
+                                        <li><a href="special-project.html">Special Project</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="virtual-tour.html">Virtual Tour</a></li>
+                                <li><a href="lokasi.html">Lokasi</a></li>
+                                <li><a href="berita.html">Berita Terbaru</a></li>
+                                <li><a href="media.html">Media</a></li>
+                                <li><a href="kontak.html">Kontak Kami</a></li>
+                            </ul>
+                            <div class="burger boxc">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 social text-right">
+                <a href="tel:+62215888000"><img class="img-fluid" src="assets/images/icon/iconPhone.png" alt="Golf Island PIK" /><span>021 588 8000</span></a>
+                <a class="d-none d-lg-inline" target="_blank" href="https://web.whatsapp.com/send?phone=6281310726027&amp;text=Lorem+ipsum+eur+dor+mod+vacius+decaprigo&amp;source&amp;data"><img class="img-fluid" src="assets/images/icon/iconWhatsapp.png" alt="Golf Island PIK" /><span>Whatsapp</span></a>
+                <a class="d-inline d-lg-none" target="_blank" href="https://wa.me/+6281310726027"><img class="img-fluid" src="assets/images/icon/iconWhatsapp.png" alt="Golf Island PIK" /><span>Whatsapp</span></a>
+            </div>
+            <div class="sideNav">
+                <div class="container-fluid wrap">
+                    <div class="row">
+                        <div class="col-9 px-m-0 px-lg-3 logo">
+                            <a href="index.html"><img class="img-fluid" src="assets/images/logoGolfIsland.png" alt="Golf Island PIK" /></a>
+                            <a href="index.html"><img class="img-fluid" src="assets/images/logoEbony2.png" alt="Golf Island PIK" /></a>
+                        </div>
+                        <div class="col-3 px-m-0 px-lg-3">
+                            <img class="img-fluid closeNav boxc" src="assets/images/icon/close.png">
+                        </div>
+                        <div class="col-12 px-m-0 mobileMenu">
+                            <div id='cssmenu'>
+                                <ul>
+                                    <li class='has-sub active'>
+                                        <a>Tentang Kami</a>
+                                        <ul>
+                                            <li><a href="developer.html">Developer</a></li>
+                                            <li><a href="konsep-golf-island.html">Konsep Golf Island</a></li>
+                                            <li><a href="konsep-ebony-2.html">Konsep Ebony 2</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class='has-sub'>
+                                        <a>Produk Kami</a>
+                                        <ul>
+                                            <li><a href="golf-island.html">Golf Island</a></li>
+                                            <li><a href="ebony-2.html">Ebony 2</a></li>
+                                            <li><a href="special-project.html">Special Project</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="virtual-tour.html">Virtual Tour</a></li>
+                                    <li><a href="lokasi.html">Lokasi</a></li>
+                                    <li><a href="berita.html">Berita Terbaru</a></li>
+                                    <li><a href="media.html">Media</a></li>
+                                    <li><a href="kontak.html">Kontak Kami</a></li>
+                                </ul>
+                             </div>
+                        </div>
+                        <div class="col-12 px-m-0 ct">
+                            <a href="tel:+62215888000"><img class="img-fluid" src="assets/images/icon/iconPhone.png" alt="Golf Island PIK" /><span>021 588 8000</span></a>
+                            <a class="d-none d-lg-inline" target="_blank" href="https://web.whatsapp.com/send?phone=6281310726027&amp;text=Lorem+ipsum+eur+dor+mod+vacius+decaprigo&amp;source&amp;data"><img class="img-fluid" src="assets/images/icon/iconWhatsapp.png" alt="Golf Island PIK" /><span>Whatsapp</span></a>
+                            <a class="d-inline d-lg-none" target="_blank" href="https://wa.me/+6281310726027"><img class="img-fluid" src="assets/images/icon/iconWhatsapp.png" alt="Golf Island PIK" /><span>Whatsapp</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+	<!-- Main -->
+    <div id="mainDeveloper" class="container-fluid">
+        <div class="row">
+
+            <!-- Header -->
+            <div class="col-lg-12 p-0 developerHeader" data-aos="fade-in" data-aos-duration="1000">
+                <div class="compHeader">
+                    <img class="img-fluid background d-none d-lg-block" src="assets/images/developer/developerImages01.jpg" alt="Golf Island PIK" />
+                    <img class="img-fluid background d-block d-lg-none" src="assets/images/developer/developerImagesMobile01.jpg" alt="Golf Island PIK" />
+                    <div class="wrap">
+                        <h3 class="colorWhite">
+                            Tentang Pengembang:<br />
+                            <i>Agung Sedayu Group</i>
+                        </h3>
+                        <a id="chevronDown" class="btnArrow" href="#moveBrief">
+                            <img class="img-fluid" src="assets/images/icon/arrowDown.png" alt="Golf Island PIK" />
+                            <span>Selengkapnya</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Brief -->
+            <div class="col-lg-5 py-lg-10p px-lg-5p developerBrief dBSt">
+                <div id="moveBrief"></div>
+                <img class="img-fluid" data-aos="fade-up" data-aos-duration="1300" src="assets/images/logoAgungSedayuGroup.png" alt="Golf Island PIK" />
+            </div>
+            <div class="col-lg-7 py-lg-10p pr-lg-5p developerBrief dBNd">
+                <div class="wrap" data-aos="fade-left" data-aos-duration="1300">
+                    <p>Agung Sedayu Group adalah perusahaan pengembang properti terkemuka yang berpusat di Jakarta. Berdiri sejak 1971, kami mengkhususkan diri pada pengembangan properti sebagai solusi bisnis dan one-stop-living, dengan menyajikan kenyamanan yang ideal sekaligus kemudahan gaya hidup modern.</p>
+                    <p>Portofolio pengembangan kami tersebar di beberapa daerah prestisius di Jakarta, Bogor, Depok, Tangerang, dan Bekasi yang terdiri dari township, superblok, apartment, office tower, mall,  industrial estate, hotel, dan lain sebagainya.</p>
+                </div>
+            </div>
+
+            <!-- Milestone -->
+            <div class="col-lg-12 py-lg-10p px-lg-5p developerMilestone text-center">
+                <img class="img-fluid ornament" src="assets/images/developer/developerOrnament01.png" alt="Golf Island PIK" />
+                <div class="carouselOneSlider owl-theme">
+                    <div class="item">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-7 py-m-5p px-m-5p pl-lg-3" data-aos="fade-in" data-aos-duration="1300">
+                                    <img class="img-fluid image boxShadow" src="assets/images/developer/developerImages02.jpg" alt="Golf Island PIK" />
+                                </div>
+                                <div class="col-lg-5 py-m-5p px-m-5p pl-lg-3" data-aos="fade-up" data-aos-duration="1300">
+                                    <div class="compTitle">
+                                        <img class="img-fluid icon" src="assets/images/icon/icon07.png" alt="Golf Island PIK" />
+                                        <h3><i>Sejarah</i> Kami</h3>
+                                    </div>
+                                    <span class="year">1971</span>
+                                    <div class="wrap">
+                                        <p>Agung Sedayu Group (ASG) berawal dari sebuah perusahaan kontraktor rumah pertokoan sederhana yang didirikan pada tahun 1971</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-7 py-m-5p px-m-5p pl-lg-3" data-aos="fade-in" data-aos-duration="1300">
+                                    <img class="img-fluid image boxShadow" src="assets/images/developer/developerImages02.jpg" alt="Golf Island PIK" />
+                                </div>
+                                <div class="col-lg-5 py-m-5p px-m-5p pl-lg-3" data-aos="fade-up" data-aos-duration="1300">
+                                    <div class="compTitle">
+                                        <img class="img-fluid icon" src="assets/images/icon/icon07.png" alt="Golf Island PIK" />
+                                        <h3><i>Sejarah</i> Kami</h3>
+                                    </div>
+                                    <span class="year">1971</span>
+                                    <div class="wrap">
+                                        <p>Agung Sedayu Group (ASG) berawal dari sebuah perusahaan kontraktor rumah pertokoan sederhana yang didirikan pada tahun 1971</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- VMaC -->
+            <div class="col-lg-12 py-lg-10p px-lg-5p developerVMaC">
+                <img class="img-fluid ornament boxc" src="assets/images/developer/developerOrnament02.png" alt="Golf Island PIK" />
+                <div class="compTitle" data-aos="fade-right" data-aos-duration="1300">
+                    <img class="img-fluid icon" src="assets/images/icon/icon08.png" alt="Golf Island PIK" />
+                    <h3><i>Vision, Mission</i> and <i>Core</i></h3>
+                </div>
+                <div class="tabsDeveloper">
+                    <!-- Tab Navigation -->
+                    <ul id="tabsNav" class="boxShadow" data-aos="fade-up" data-aos-duration="1300">
+                        <a class="navList" target="vision">
+                            <li>
+                                <img class="img-fluid" src="assets/images/icon/iconDeveloper01.png" alt="Golf Island PIK" />
+                                <p>Vision</p>
+                            </li>
+                        </a>
+                        <a class="navList" target="mission">
+                            <li>
+                                <img class="img-fluid" src="assets/images/icon/iconDeveloper02.png" alt="Golf Island PIK" />
+                                <p>Mission</p>
+                            </li>
+                        </a>
+                        <a class="navList" target="core">
+                            <li>
+                                <img class="img-fluid" src="assets/images/icon/iconDeveloper03.png" alt="Golf Island PIK" />
+                                <p>Core</p>
+                            </li>
+                        </a>
+                    </ul>
+                    <img class="img-fluid imageDef boxShadow" data-aos="fade-left" data-aos-duration="1300" src="assets/images/developer/developerImages03.jpg" alt="Golf Island PIK" />
+                    <!-- Tab Content -->
+                    <div class="tabsContent" id="tabsVMaC-vision">
+                        <div class="info">
+                            <p>Kami adalah property developer terkemuka yang menjadi market leader</p>
+                        </div>
+                        <img class="img-fluid image boxShadow" src="assets/images/developer/developerImages04.jpg" alt="Golf Island PIK" />
+                    </div>
+                    <div class="tabsContent" id="tabsVMaC-mission">
+                        <div class="info">
+                            <p>Tujuan utama Kami adalah menjadi property developer yang menyediakan produk-produknya dengan kualitas terbaik, ketepatan waktu dan biaya yang efektif.</p>
+                        </div>
+                        <img class="img-fluid image boxShadow" src="assets/images/developer/developerImages05.jpg" alt="Golf Island PIK" />
+                    </div>
+                    <div class="tabsContent" id="tabsVMaC-core">
+                        <div class="info">
+                            <p>Rendah hati Profesional, Saling Mempercayai, Hati Nurani dan Fokus</p>
+                        </div>
+                        <img class="img-fluid image boxShadow" src="assets/images/developer/developerImages06.jpg" alt="Golf Island PIK" />
+                    </div>
+                </div>
+                <table class="mobileContentDeveloper d-block d-lg-none">
+                    <tr>
+                        <td>
+                            <img class="img-fluid" src="assets/images/icon/iconDeveloperMobile01.png" alt="Golf Island PIK" />
+                        </td>
+                        <td>
+                            <p class="title">Vision</p>
+                            <p>Kami adalah property developer terkemuka yang menjadi market leader</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img class="img-fluid" src="assets/images/icon/iconDeveloperMobile02.png" alt="Golf Island PIK" />
+                        </td>
+                        <td>
+                            <p class="title">Mission</p>
+                            <p>Tujuan utama Kami adalah menjadi property developer yang menyediakan produk-produknya dengan kualitas terbaik, ketepatan waktu dan biaya yang efektif</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img class="img-fluid" src="assets/images/icon/iconDeveloperMobile03.png" alt="Golf Island PIK" />
+                        </td>
+                        <td>
+                            <p class="title">Core</p>
+                            <p>Rendah hati, Profesional, Saling Mempercayai, Hati Nurani dan Fokus</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Project -->
+            <div class="col-lg-12 py-m-0 px-m-0 pt-lg-5p pb-lg-10p px-lg-5p developerProject">
+                <span class="ornament d-none d-lg-block"></span>
+                <div class="carouselSlideSlider owl-theme d-none d-lg-block">
+                    <div class="item">
+                        <div class="compTitle" data-aos="fade-left" data-aos-duration="1300">
+                            <img class="img-fluid icon" src="assets/images/icon/icon09.png" alt="Golf Island PIK" />
+                            <h3>Proyek Kami <i>City & Township</i></h3>
+                        </div>
+                        <div class="wrap" data-aos="fade-up" data-aos-duration="1300">
+                            <div class="cardLogo text-center">
+                                <img class="img-fluid" src="assets/images/logo/logoCityTownship-01.png" alt="Golf Island PIK" />
+                                <p>Bukit Golf Mediterania</p>
+                            </div>
+                            <div class="cardLogo text-center">
+                                <img class="img-fluid" src="assets/images/logo/logoCityTownship-02.png" alt="Golf Island PIK" />
+                                <p>Grand Cibubur Country</p>
+                            </div>
+                            <div class="cardLogo text-center">
+                                <img class="img-fluid" src="assets/images/logo/logoCityTownship-03.png" alt="Golf Island PIK" />
+                                <p>Green Mansion</p>
+                            </div>
+                            <div class="cardLogo text-center">
+                                <img class="img-fluid" src="assets/images/logo/logoCityTownship-04.png" alt="Golf Island PIK" />
+                                <p>Green Lake City</p>
+                            </div>
+                            <div class="cardLogo text-center">
+                                <img class="img-fluid" src="assets/images/logo/logoCityTownship-05.png" alt="Golf Island PIK" />
+                                <p>River Valley Residence</p>
+                            </div>
+                            <div class="cardLogo text-center">
+                                <img class="img-fluid" src="assets/images/logo/logoCityTownship-06.png" alt="Golf Island PIK" />
+                                <p>Golf Residence at Kemayoran</p>
+                            </div>
+                            <div class="cardLogo text-center">
+                                <img class="img-fluid" src="assets/images/logo/logoCityTownship-07.png" alt="Golf Island PIK" />
+                                <p>PIK 2</p>
+                            </div>
+                            <div class="cardLogo text-center">
+                                <img class="img-fluid" src="assets/images/logo/logoCityTownship-08.png" alt="Golf Island PIK" />
+                                <p>Senayan Golf Residence</p>
+                            </div>
+                            <div class="cardLogo text-center">
+                                <img class="img-fluid" src="assets/images/logo/logoCityTownship-09.png" alt="Golf Island PIK" />
+                                <p>Puri Mansion</p>
+                            </div>
+                            <div class="cardLogo text-center">
+                                <img class="img-fluid" src="assets/images/logo/logoCityTownship-10.png" alt="Golf Island PIK" />
+                                <p>Grand Galaxy City</p>
+                            </div>
+                            <div class="cardLogo text-center">
+                                <img class="img-fluid" src="assets/images/logo/logoCityTownship-11.png" alt="Golf Island PIK" />
+                                <p>Golf Lake Residence</p>
+                            </div>
+                            <div class="cardLogo text-center">
+                                <img class="img-fluid" src="assets/images/logo/logoCityTownship-12.png" alt="Golf Island PIK" />
+                                <p>Green Puri</p>
+                            </div>
+                            <div class="cardLogo text-center">
+                                <img class="img-fluid" src="assets/images/logo/logoCityTownship-13.png" alt="Golf Island PIK" />
+                                <p>Green Village</p>
+                            </div>
+                            <div class="cardLogo text-center">
+                                <img class="img-fluid" src="assets/images/logo/logoCityTownship-14.png" alt="Golf Island PIK" />
+                                <p>Golf Island</p>
+                            </div>
+                            <div class="cardLogo text-center">
+                                <img class="img-fluid" src="assets/images/logo/logoCityTownship-15.png" alt="Golf Island PIK" />
+                                <p>Royal Mansion</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="compTitle" data-aos="fade-left" data-aos-duration="1300">
+                            <img class="img-fluid icon" src="assets/images/icon/icon09.png" alt="Golf Island PIK" />
+                            <h3>Proyek Kami <i>Commercial & Industrial</i></h3>
+                        </div>
+                        <div class="wrap" data-aos="fade-up" data-aos-duration="1300">
+                            <div class="cardLogo text-center">
+                                <img class="img-fluid" src="assets/images/logo/logoCommercial-01.png" alt="Golf Island PIK" />
+                                <p>Green Sedayu Biz Park Daan Mogot</p>
+                            </div>
+                            <div class="cardLogo text-center">
+                                <img class="img-fluid" src="assets/images/logo/logoCommercial-02.png" alt="Golf Island PIK" />
+                                <p>Green Sedayu Biz Park Cakung</p>
+                            </div>
+                            <div class="cardLogo text-center">
+                                <img class="img-fluid" src="assets/images/logo/logoCommercial-03.png" alt="Golf Island PIK" />
+                                <p>Sedayu Square</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="compTitle" data-aos="fade-left" data-aos-duration="1300">
+                            <img class="img-fluid icon" src="assets/images/icon/icon09.png" alt="Golf Island PIK" />
+                            <h3>Proyek Kami <i>High Rise Building</i></h3>
+                        </div>
+                        <div class="wrap" data-aos="fade-up" data-aos-duration="1300">
+                            <div class="cardLogo text-center">
+                                <img class="img-fluid" src="assets/images/logo/logoHRB-01.png" alt="Golf Island PIK" />
+                                <p>Kelapa Gading Square</p>
+                            </div>
+                            <div class="cardLogo text-center">
+                                <img class="img-fluid" src="assets/images/logo/logoHRB-02.png" alt="Golf Island PIK" />
+                                <p>City Resort Residence</p>
+                            </div>
+                            <div class="cardLogo text-center">
+                                <img class="img-fluid" src="assets/images/logo/logoHRB-03.png" alt="Golf Island PIK" />
+                                <p>Senayan Residence</p>
+                            </div>
+                            <div class="cardLogo text-center">
+                                <img class="img-fluid" src="assets/images/logo/logoHRB-04.png" alt="Golf Island PIK" />
+                                <p>The Mansion at Kemang</p>
+                            </div>
+                            <div class="cardLogo text-center">
+                                <img class="img-fluid" src="assets/images/logo/logoHRB-05.png" alt="Golf Island PIK" />
+                                <p>The Boulevard</p>
+                            </div>
+                            <div class="cardLogo text-center">
+                                <img class="img-fluid" src="assets/images/logo/logoHRB-06.png" alt="Golf Island PIK" />
+                                <p>Ancol Mansion</p>
+                            </div>
+                            <div class="cardLogo text-center">
+                                <img class="img-fluid" src="assets/images/logo/logoHRB-07.png" alt="Golf Island PIK" />
+                                <p>Residence 8 at Senopati</p>
+                            </div>
+                            <div class="cardLogo text-center">
+                                <img class="img-fluid" src="assets/images/logo/logoHRB-08.png" alt="Golf Island PIK" />
+                                <p>Residence One at Serpong Boulevard</p>
+                            </div>
+                            <div class="cardLogo text-center">
+                                <img class="img-fluid" src="assets/images/logo/logoHRB-09.png" alt="Golf Island PIK" />
+                                <p>District 8 Lot 28 SCBD</p>
+                            </div>
+                            <div class="cardLogo text-center">
+                                <img class="img-fluid" src="assets/images/logo/logoHRB-10.png" alt="Golf Island PIK" />
+                                <p>The Mansion at Dukuh Golf Kemayoran</p>
+                            </div>
+                            <div class="cardLogo text-center">
+                                <img class="img-fluid" src="assets/images/logo/logoHRB-11.png" alt="Golf Island PIK" />
+                                <p>Taman Anggrek Residences</p>
+                            </div>
+                            <div class="cardLogo text-center">
+                                <img class="img-fluid" src="assets/images/logo/logoHRB-12.png" alt="Golf Island PIK" />
+                                <p>Menteng Park</p>
+                            </div>
+                            <div class="cardLogo text-center">
+                                <img class="img-fluid" src="assets/images/logo/logoHRB-13.png" alt="Golf Island PIK" />
+                                <p>Puri Mansion Apartment</p>
+                            </div>
+                            <div class="cardLogo text-center">
+                                <img class="img-fluid" src="assets/images/logo/logoHRB-14.png" alt="Golf Island PIK" />
+                                <p>Green Sedayu Apartment</p>
+                            </div>
+                            <div class="cardLogo text-center">
+                                <img class="img-fluid" src="assets/images/logo/logoHRB-15.png" alt="Golf Island PIK" />
+                                <p>Sedayu City at Kelapa Gading</p>
+                            </div>
+                            <div class="cardLogo text-center">
+                                <img class="img-fluid" src="assets/images/logo/logoHRB-16.png" alt="Golf Island PIK" />
+                                <p>Menara Jakarta</p>
+                            </div>
+                            <div class="cardLogo text-center">
+                                <img class="img-fluid" src="assets/images/logo/logoHRB-17.png" alt="Golf Island PIK" />
+                                <p>Fatmawati City Center</p>
+                            </div>
+                            <div class="cardLogo text-center">
+                                <img class="img-fluid" src="assets/images/logo/logoHRB-18.png" alt="Golf Island PIK" />
+                                <p>Gold Coast</p>
+                            </div>
+                            <div class="cardLogo text-center">
+                                <img class="img-fluid" src="assets/images/logo/logoHRB-19.png" alt="Golf Island PIK" />
+                                <p>Osaka Apartment</p>
+                            </div>
+                            <div class="cardLogo text-center">
+                                <img class="img-fluid" src="assets/images/logo/logoHRB-20.png" alt="Golf Island PIK" />
+                                <p>Tokyo Riverside</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mobileDP d-block d-lg-none">
+                    <div class="compTitle text-center" data-aos="fade-left" data-aos-duration="1300">
+                        <img class="img-fluid icon" src="assets/images/icon/icon09.png" alt="Golf Island PIK" />
+                        <h3>Proyek Kami</h3>
+                    </div>
+
+                    <!-- City Township -->
+                    <h3 class="title" data-aos="fade-up" data-aos-duration="1300"><i>City & Township</i></h3>
+                    <div class="carouselSlideSlider owl-theme">
+                        <div class="item">
+                            <div class="wrap" data-aos="fade-up" data-aos-duration="1300">
+                                <div class="cardLogo text-center">
+                                    <img class="img-fluid" src="assets/images/logo/logoCityTownship-01.png" alt="Golf Island PIK" />
+                                    <p>Bukit Golf Mediterania</p>
+                                </div>
+                                <div class="cardLogo text-center">
+                                    <img class="img-fluid" src="assets/images/logo/logoCityTownship-02.png" alt="Golf Island PIK" />
+                                    <p>Grand Cibubur Country</p>
+                                </div>
+                                <div class="cardLogo text-center">
+                                    <img class="img-fluid" src="assets/images/logo/logoCityTownship-03.png" alt="Golf Island PIK" />
+                                    <p>Green Mansion</p>
+                                </div>
+                                <div class="cardLogo text-center">
+                                    <img class="img-fluid" src="assets/images/logo/logoCityTownship-04.png" alt="Golf Island PIK" />
+                                    <p>Green Lake City</p>
+                                </div>
+                                <div class="cardLogo text-center">
+                                    <img class="img-fluid" src="assets/images/logo/logoCityTownship-05.png" alt="Golf Island PIK" />
+                                    <p>River Valley Residence</p>
+                                </div>
+                                <div class="cardLogo text-center">
+                                    <img class="img-fluid" src="assets/images/logo/logoCityTownship-06.png" alt="Golf Island PIK" />
+                                    <p>Golf Residence at Kemayoran</p>
+                                </div>
+                                <div class="cardLogo text-center">
+                                    <img class="img-fluid" src="assets/images/logo/logoCityTownship-07.png" alt="Golf Island PIK" />
+                                    <p>PIK 2</p>
+                                </div>
+                                <div class="cardLogo text-center">
+                                    <img class="img-fluid" src="assets/images/logo/logoCityTownship-08.png" alt="Golf Island PIK" />
+                                    <p>Senayan Golf Residence</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="wrap" data-aos="fade-up" data-aos-duration="1300">
+                                <div class="cardLogo text-center">
+                                    <img class="img-fluid" src="assets/images/logo/logoCityTownship-09.png" alt="Golf Island PIK" />
+                                    <p>Puri Mansion</p>
+                                </div>
+                                <div class="cardLogo text-center">
+                                    <img class="img-fluid" src="assets/images/logo/logoCityTownship-10.png" alt="Golf Island PIK" />
+                                    <p>Grand Galaxy City</p>
+                                </div>
+                                <div class="cardLogo text-center">
+                                    <img class="img-fluid" src="assets/images/logo/logoCityTownship-11.png" alt="Golf Island PIK" />
+                                    <p>Golf Lake Residence</p>
+                                </div>
+                                <div class="cardLogo text-center">
+                                    <img class="img-fluid" src="assets/images/logo/logoCityTownship-12.png" alt="Golf Island PIK" />
+                                    <p>Green Puri</p>
+                                </div>
+                                <div class="cardLogo text-center">
+                                    <img class="img-fluid" src="assets/images/logo/logoCityTownship-13.png" alt="Golf Island PIK" />
+                                    <p>Green Village</p>
+                                </div>
+                                <div class="cardLogo text-center">
+                                    <img class="img-fluid" src="assets/images/logo/logoCityTownship-14.png" alt="Golf Island PIK" />
+                                    <p>Golf Island</p>
+                                </div>
+                                <div class="cardLogo text-center">
+                                    <img class="img-fluid" src="assets/images/logo/logoCityTownship-15.png" alt="Golf Island PIK" />
+                                    <p>Royal Mansion</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Commercial Industrial -->
+                    <h3 class="title" data-aos="fade-up" data-aos-duration="1300"><i>Commercial & Industrial</i></h3>
+                    <div class="carouselSlideSlider owl-theme">
+                        <div class="item">
+                            <div class="wrap" data-aos="fade-up" data-aos-duration="1300">
+                                <div class="cardLogo text-center">
+                                    <img class="img-fluid" src="assets/images/logo/logoCommercial-01.png" alt="Golf Island PIK" />
+                                    <p>Green Sedayu Biz Park Daan Mogot</p>
+                                </div>
+                                <div class="cardLogo text-center">
+                                    <img class="img-fluid" src="assets/images/logo/logoCommercial-02.png" alt="Golf Island PIK" />
+                                    <p>Green Sedayu Biz Park Cakung</p>
+                                </div>
+                                <div class="cardLogo text-center">
+                                    <img class="img-fluid" src="assets/images/logo/logoCommercial-03.png" alt="Golf Island PIK" />
+                                    <p>Sedayu Square</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- High Rise Building -->
+                    <h3 class="title" data-aos="fade-up" data-aos-duration="1300"><i>High Rise Building</i></h3>
+                    <div class="carouselSlideSlider owl-theme">
+                        <div class="item">
+                            <div class="wrap" data-aos="fade-up" data-aos-duration="1300">
+                                <div class="cardLogo text-center">
+                                    <img class="img-fluid" src="assets/images/logo/logoHRB-01.png" alt="Golf Island PIK" />
+                                    <p>Kelapa Gading Square</p>
+                                </div>
+                                <div class="cardLogo text-center">
+                                    <img class="img-fluid" src="assets/images/logo/logoHRB-02.png" alt="Golf Island PIK" />
+                                    <p>City Resort Residence</p>
+                                </div>
+                                <div class="cardLogo text-center">
+                                    <img class="img-fluid" src="assets/images/logo/logoHRB-03.png" alt="Golf Island PIK" />
+                                    <p>Senayan Residence</p>
+                                </div>
+                                <div class="cardLogo text-center">
+                                    <img class="img-fluid" src="assets/images/logo/logoHRB-04.png" alt="Golf Island PIK" />
+                                    <p>The Mansion at Kemang</p>
+                                </div>
+                                <div class="cardLogo text-center">
+                                    <img class="img-fluid" src="assets/images/logo/logoHRB-05.png" alt="Golf Island PIK" />
+                                    <p>The Boulevard</p>
+                                </div>
+                                <div class="cardLogo text-center">
+                                    <img class="img-fluid" src="assets/images/logo/logoHRB-06.png" alt="Golf Island PIK" />
+                                    <p>Ancol Mansion</p>
+                                </div>
+                                <div class="cardLogo text-center">
+                                    <img class="img-fluid" src="assets/images/logo/logoHRB-07.png" alt="Golf Island PIK" />
+                                    <p>Residence 8 at Senopati</p>
+                                </div>
+                                <div class="cardLogo text-center">
+                                    <img class="img-fluid" src="assets/images/logo/logoHRB-08.png" alt="Golf Island PIK" />
+                                    <p>Residence One at Serpong Boulevard</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="wrap" data-aos="fade-up" data-aos-duration="1300">
+                                <div class="cardLogo text-center">
+                                    <img class="img-fluid" src="assets/images/logo/logoHRB-09.png" alt="Golf Island PIK" />
+                                    <p>District 8 Lot 28 SCBD</p>
+                                </div>
+                                <div class="cardLogo text-center">
+                                    <img class="img-fluid" src="assets/images/logo/logoHRB-10.png" alt="Golf Island PIK" />
+                                    <p>The Mansion at Dukuh Golf Kemayoran</p>
+                                </div>
+                                <div class="cardLogo text-center">
+                                    <img class="img-fluid" src="assets/images/logo/logoHRB-11.png" alt="Golf Island PIK" />
+                                    <p>Taman Anggrek Residences</p>
+                                </div>
+                                <div class="cardLogo text-center">
+                                    <img class="img-fluid" src="assets/images/logo/logoHRB-12.png" alt="Golf Island PIK" />
+                                    <p>Menteng Park</p>
+                                </div>
+                                <div class="cardLogo text-center">
+                                    <img class="img-fluid" src="assets/images/logo/logoHRB-13.png" alt="Golf Island PIK" />
+                                    <p>Puri Mansion Apartment</p>
+                                </div>
+                                <div class="cardLogo text-center">
+                                    <img class="img-fluid" src="assets/images/logo/logoHRB-14.png" alt="Golf Island PIK" />
+                                    <p>Green Sedayu Apartment</p>
+                                </div>
+                                <div class="cardLogo text-center">
+                                    <img class="img-fluid" src="assets/images/logo/logoHRB-15.png" alt="Golf Island PIK" />
+                                    <p>Sedayu City at Kelapa Gading</p>
+                                </div>
+                                <div class="cardLogo text-center">
+                                    <img class="img-fluid" src="assets/images/logo/logoHRB-16.png" alt="Golf Island PIK" />
+                                    <p>Menara Jakarta</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="wrap" data-aos="fade-up" data-aos-duration="1300">
+                                <div class="cardLogo text-center">
+                                    <img class="img-fluid" src="assets/images/logo/logoHRB-17.png" alt="Golf Island PIK" />
+                                    <p>Fatmawati City Center</p>
+                                </div>
+                                <div class="cardLogo text-center">
+                                    <img class="img-fluid" src="assets/images/logo/logoHRB-18.png" alt="Golf Island PIK" />
+                                    <p>Gold Coast</p>
+                                </div>
+                                <div class="cardLogo text-center">
+                                    <img class="img-fluid" src="assets/images/logo/logoHRB-19.png" alt="Golf Island PIK" />
+                                    <p>Osaka Apartment</p>
+                                </div>
+                                <div class="cardLogo text-center">
+                                    <img class="img-fluid" src="assets/images/logo/logoHRB-20.png" alt="Golf Island PIK" />
+                                    <p>Tokyo Riverside</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Site -->
+            <div class="col-lg-12 p-0 developerSite text-center">
+                <img class="img-fluid background" data-aos="fade-in" data-aos-duration="1300" src="assets/images/developer/developerImages07.jpg" alt="Golf Island PIK" />
+                <div class="wrap boxc">
+                    <div class="compTitle">
+                        <img class="img-fluid icon" src="assets/images/icon/icon10.png" alt="Golf Island PIK" />
+                        <h3>Kunjungi <i>Situs</i> Kami</h3>
+                    </div>
+                    <a class="btnDefault" href="https://www.agungsedayu.com/">WWW.AGUNGSEDAYU.COM</a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+	
+	<!-- Footer -->
+    <div class="compBaT boxShadow">
+        <a id="compBaTTop" class="m-compBaTTop" href="#goTop">
+            <img class="img-fluid" src="assets/images/icon/arrowTop.png" alt="Golf Island PIK" />
+            <p>KE ATAS</p>
+        </a>
+        <a href="">
+            <img class="img-fluid" src="assets/images/icon/iconDownload.png" alt="Golf Island PIK" />
+            <p>E-BROCHURE</p>
+        </a>
+        <a id="compBaTTop" class="lg-compBaTTop" href="#goTop">
+            <img class="img-fluid" src="assets/images/icon/arrowTop.png" alt="Golf Island PIK" />
+            <p>KE ATAS</p>
+        </a>
+    </div>
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 py-lg-5p px-lg-5p description">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-lg-4 logo">
+                            <a href="index.html"><img class="img-fluid" src="assets/images/logoGolfIsland.png" alt="Golf Island PIK" /></a>
+                            <a href="index.html"><img class="img-fluid" src="assets/images/logoEbony2.png" alt="Golf Island PIK" /></a>
+                            <a href="index.html"><img class="img-fluid" src="assets/images/logoAgungSedayuGroupdanSalimGroup.png" alt="Golf Island PIK" /></a>
+                        </div>
+                        <div class="col-12 col-lg-6 info">
+                            <h6>Hubungi Kami</h6>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img class="img-fluid" src="assets/images/icon/iconPoint.png" alt="Golf Island PIK" />
+                                        <p>
+                                            Marketing Gallery Sedayu Indocity:<br />
+                                            Jl. Pantai Indah Kapuk, Boulevard<br />
+                                            Kamal Muara Penjaringan<br />
+                                            Jakarta Utara 14470
+                                        </p>
+                                    </td>
+                                    <td>
+                                        <img class="img-fluid" src="assets/images/icon/iconPhone.png" alt="Golf Island PIK" />
+                                        <p>
+                                            <a href="tel:+62215888000">021 588 8000</a>
+                                        </p>
+                                        <img class="img-fluid" src="assets/images/icon/iconMail.png" alt="Golf Island PIK" />
+                                        <p>
+                                            <a target="_blank" href="mailto:contact@golfisland.com">contact@golfisland.com</a>
+                                            <a target="_blank" href="mailto:contact@ebony2.com">contact@ebony2.com</a>
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="col-12 col-lg-2 social">
+                            <h6>Sosial Media</h6>
+                            <ul>
+                                <li>
+                                    <img class="img-fluid" src="assets/images/icon/iconInstagram.png" alt="Golf Island PIK" />
+                                    <a href="index.html">golfislandofficial</a>
+                                </li>
+                                <li>
+                                    <img class="img-fluid" src="assets/images/icon/iconFacebook.png" alt="Golf Island PIK" />
+                                    <a href="index.html">golf island</a>
+                                </li>
+                                <li>
+                                    <img class="img-fluid" src="assets/images/icon/iconYoutube.png" alt="Golf Island PIK" />
+                                    <a href="index.html">golf island</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 disclaimer text-center bgLightGrey">
+                <p>Pasal sanggahan : Seluruh gambar dan spesifikasi dalam materi promosi ini bukan bagian dari kontrak. Seluruh gambar dan spesifikasi merupakan kondisi terakhir pada masa persiapan materi promosi, perubahan dapat terjadi sewaktu-waktu.</p>
+            </div>
+            <div class="col-lg-12 copyright text-center bgLightGreen colorWhite">
+                <p>Copyright © 2020 Agung Sedayu Group</p>
+            </div>
+        </div>
+    </footer>
+
+  	<!-- CDN JS -->
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+  	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  	<!-- Custom JS -->
+    <script type="text/javascript" src="assets/js/isotope.pkgd.js"></script>
+  	<script type="text/javascript" src="assets/js/script.js"></script>
+  	<script type="text/javascript" src="assets/cssmenu/script.js"></script>
+</body>
+</html>

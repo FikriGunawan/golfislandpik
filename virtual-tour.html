@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
+  	<title>Virtual Tour | Golf Island Pantai Indah Kapuk</title>
+  	<link rel="shortcut icon" href="assets/images/logoIcon.ico">
+  	<!-- CDN CSS -->
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  	<!-- Custom CSS -->
+  	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/cssmenu/styles.css" />
+</head>
+<body>
+
+	<!-- Navigation -->
+    <div id="goTop"></div>
+    <nav class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 px-lg-5p">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-9 col-lg-4 px-m-0 px-lg-3 logo">
+                            <a href="index.html"><img class="img-fluid" src="assets/images/logoGolfIsland.png" alt="Golf Island PIK" /></a>
+                            <a href="index.html"><img class="img-fluid" src="assets/images/logoEbony2.png" alt="Golf Island PIK" /></a>
+                        </div>
+                        <div class="col-3 col-lg-8 px-m-0 px-lg-3 menu">
+                            <ul>
+                                <li>
+                                    <a>Tentang Kami</a>
+                                    <ul>
+                                        <li><a href="developer.html">Developer</a></li>
+                                        <li><a href="konsep-golf-island.html">Konsep Golf Island</a></li>
+                                        <li><a href="konsep-ebony-2.html">Konsep Ebony 2</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a>Produk Kami</a>
+                                    <ul>
+                                        <li><a href="golf-island.html">Golf Island</a></li>
+                                        <li><a href="ebony-2.html">Ebony 2</a></li>
+                                        <li><a href="special-project.html">Special Project</a></li>
+                                    </ul>
+                                </li>
+                                <li class="active"><a href="virtual-tour.html">Virtual Tour</a></li>
+                                <li><a href="lokasi.html">Lokasi</a></li>
+                                <li><a href="berita.html">Berita Terbaru</a></li>
+                                <li><a href="media.html">Media</a></li>
+                                <li><a href="kontak.html">Kontak Kami</a></li>
+                            </ul>
+                            <div class="burger boxc">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 social text-right">
+                <a href="tel:+62215888000"><img class="img-fluid" src="assets/images/icon/iconPhone.png" alt="Golf Island PIK" /><span>021 588 8000</span></a>
+                <a class="d-none d-lg-inline" target="_blank" href="https://web.whatsapp.com/send?phone=6281310726027&amp;text=Lorem+ipsum+eur+dor+mod+vacius+decaprigo&amp;source&amp;data"><img class="img-fluid" src="assets/images/icon/iconWhatsapp.png" alt="Golf Island PIK" /><span>Whatsapp</span></a>
+                <a class="d-inline d-lg-none" target="_blank" href="https://wa.me/+6281310726027"><img class="img-fluid" src="assets/images/icon/iconWhatsapp.png" alt="Golf Island PIK" /><span>Whatsapp</span></a>
+            </div>
+            <div class="sideNav">
+                <div class="container-fluid wrap">
+                    <div class="row">
+                        <div class="col-9 px-m-0 px-lg-3 logo">
+                            <a href="index.html"><img class="img-fluid" src="assets/images/logoGolfIsland.png" alt="Golf Island PIK" /></a>
+                            <a href="index.html"><img class="img-fluid" src="assets/images/logoEbony2.png" alt="Golf Island PIK" /></a>
+                        </div>
+                        <div class="col-3 px-m-0 px-lg-3">
+                            <img class="img-fluid closeNav boxc" src="assets/images/icon/close.png">
+                        </div>
+                        <div class="col-12 px-m-0 mobileMenu">
+                            <div id='cssmenu'>
+                                <ul>
+                                    <li class='has-sub'>
+                                        <a>Tentang Kami</a>
+                                        <ul>
+                                            <li><a href="developer.html">Developer</a></li>
+                                            <li><a href="konsep-golf-island.html">Konsep Golf Island</a></li>
+                                            <li><a href="konsep-ebony-2.html">Konsep Ebony 2</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class='has-sub'>
+                                        <a>Produk Kami</a>
+                                        <ul>
+                                            <li><a href="golf-island.html">Golf Island</a></li>
+                                            <li><a href="ebony-2.html">Ebony 2</a></li>
+                                            <li><a href="special-project.html">Special Project</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="active"><a href="virtual-tour.html">Virtual Tour</a></li>
+                                    <li><a href="lokasi.html">Lokasi</a></li>
+                                    <li><a href="berita.html">Berita Terbaru</a></li>
+                                    <li><a href="media.html">Media</a></li>
+                                    <li><a href="kontak.html">Kontak Kami</a></li>
+                                </ul>
+                             </div>
+                        </div>
+                        <div class="col-12 px-m-0 ct">
+                            <a href="tel:+62215888000"><img class="img-fluid" src="assets/images/icon/iconPhone.png" alt="Golf Island PIK" /><span>021 588 8000</span></a>
+                            <a class="d-none d-lg-inline" target="_blank" href="https://web.whatsapp.com/send?phone=6281310726027&amp;text=Lorem+ipsum+eur+dor+mod+vacius+decaprigo&amp;source&amp;data"><img class="img-fluid" src="assets/images/icon/iconWhatsapp.png" alt="Golf Island PIK" /><span>Whatsapp</span></a>
+                            <a class="d-inline d-lg-none" target="_blank" href="https://wa.me/+6281310726027"><img class="img-fluid" src="assets/images/icon/iconWhatsapp.png" alt="Golf Island PIK" /><span>Whatsapp</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+	<!-- Main -->
+    <div id="mainVirtual" class="container-fluid">
+        <div class="row">
+
+            <!-- Header -->
+            <div class="col-lg-12 p-0 virtualHeader" data-aos="fade-in" data-aos-duration="1000">
+                <div class="compHeader">
+                    <img class="img-fluid background d-none d-lg-block" src="assets/images/virtual/virtualImages01.jpg" alt="Golf Island PIK" />
+                    <img class="img-fluid background d-block d-lg-none" src="assets/images/virtual/virtualImages01.jpg" alt="Golf Island PIK" />
+                    <div class="wrap">
+                        <h3 class="colorWhite">
+                            <i>360 Virtual Tour</i><br />
+                            Produk Kami
+                        </h3>
+                        <a id="chevronDown" class="btnArrow" href="#moveBrief">
+                            <img class="img-fluid" src="assets/images/icon/arrowDown.png" alt="Golf Island PIK" />
+                            <span>Selengkapnya</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Brief -->
+            <div class="col-lg-12 py-lg-10p px-lg-5p virtualBrief text-center">
+                <div id="moveBrief"></div>
+                <img class="img-fluid ornament" src="assets/images/virtual/virtualOrnament01.png" alt="Golf Island PIK" />
+                <div class="wrap" data-aos="fade-up" data-aos-duration="1300">
+                    <div class="compTitle">
+                        <img class="img-fluid icon" src="assets/images/icon/icon19.png" alt="Golf Island PIK" />
+                        <h3>Coming <i>Soon</i></h3>
+                    </div>
+                    <div class="brief">
+                        <p>Untuk menikmati suasana tinggal di Golf Island & Ebony 2 secara langsung melalui website ini, akan segera hadir 360 Virtual Tour dari kami.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product -->
+            <div class="col-lg-12 pt-lg-5p pb-lg-10p px-lg-5p virtualProduct text-center">
+                <img class="img-fluid ornament" src="assets/images/virtual/virtualOrnament02.png" alt="Golf Island PIK" />
+                <!-- Golf Island -->
+                <div class="vpwrap" data-aos="fade-up" data-aos-duration="1300">
+                    <div class="compTitle pb-lg-5p">
+                        <h3>Golf Island</h3>
+                    </div>
+                    <div class="tabsVPrd">
+                        <div id="tabsNav" class="tabsNav">
+                            <a class="navList btnLightGreenDef active" target="golf">Golf</a>
+                            <a class="navList btnLightGreenDef" target="nongolf">Non Golf</a>
+                            <a class="navList btnLightGreenDef" target="komersial">Komersial</a>
+                        </div>
+                        <div class="carouselOneSlider owl-theme tabsContent" id="tabsVPrd-golf">
+                            <div class="item">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-6 col-lg-3 productCard">
+                                            <a href=""><img class="img-fluid image" src="assets/images/product/GolfIsland/chopin-&-mozart-signature/chopin-&-mozart-signature-thumb-basil.jpg" alt="Golf Island PIK" /></a>
+                                            <a href=""><h6>Basil</h6></a>
+                                            <p>Cluster: Chopin & Mozart Signature</p>
+                                        </div>
+                                        <div class="col-6 col-lg-3 productCard">
+                                            <a href=""><img class="img-fluid image" src="assets/images/product/GolfIsland/chopin-&-mozart-signature/chopin-&-mozart-signature-thumb-bougenville.jpg" alt="Golf Island PIK" /></a>
+                                            <a href=""><h6>Bougenville</h6></a>
+                                            <p>Cluster: Chopin & Mozart Signature</p>
+                                        </div>
+                                        <div class="col-6 col-lg-3 productCard">
+                                            <a href=""><img class="img-fluid image" src="assets/images/product/GolfIsland/chopin-&-mozart-signature/chopin-&-mozart-signature-thumb-caspia.jpg" alt="Golf Island PIK" /></a>
+                                            <a href=""><h6>Caspia</h6></a>
+                                            <p>Cluster: Chopin & Mozart Signature</p>
+                                        </div>
+                                        <div class="col-6 col-lg-3 productCard">
+                                            <a href=""><img class="img-fluid image" src="assets/images/product/GolfIsland/chopin-&-mozart-signature/chopin-&-mozart-signature-thumb-catalya.jpg" alt="Golf Island PIK" /></a>
+                                            <a href=""><h6>Catalya</h6></a>
+                                            <p>Cluster: Chopin & Mozart Signature</p>
+                                        </div>
+                                        <div class="col-6 col-lg-3 productCard">
+                                            <a href=""><img class="img-fluid image" src="assets/images/product/GolfIsland/chopin-&-mozart-signature/chopin-&-mozart-signature-thumb-chrysant.jpg" alt="Golf Island PIK" /></a>
+                                            <a href=""><h6>Chrysant</h6></a>
+                                            <p>Cluster: Chopin & Mozart Signature</p>
+                                        </div>
+                                        <div class="col-6 col-lg-3 productCard">
+                                            <a href=""><img class="img-fluid image" src="assets/images/product/GolfIsland/chopin-&-mozart-signature/chopin-&-mozart-signature-thumb-clover.jpg" alt="Golf Island PIK" /></a>
+                                            <a href=""><h6>Clover</h6></a>
+                                            <p>Cluster: Chopin & Mozart Signature</p>
+                                        </div>
+                                        <div class="col-6 col-lg-3 productCard">
+                                            <a href=""><img class="img-fluid image" src="assets/images/product/GolfIsland/chopin-&-mozart-signature/chopin-&-mozart-signature-thumb-dahlia.jpg" alt="Golf Island PIK" /></a>
+                                            <a href=""><h6>Dahlia</h6></a>
+                                            <p>Cluster: Chopin & Mozart Signature</p>
+                                        </div>
+                                        <div class="col-6 col-lg-3 productCard">
+                                            <a href=""><img class="img-fluid image" src="assets/images/product/GolfIsland/chopin-&-mozart-signature/chopin-&-mozart-signature-thumb-edelweis.jpg" alt="Golf Island PIK" /></a>
+                                            <a href=""><h6>Edelweis</h6></a>
+                                            <p>Cluster: Chopin & Mozart Signature</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-6 col-lg-3 productCard">
+                                            <a href=""><img class="img-fluid image" src="assets/images/product/GolfIsland/chopin-&-mozart-signature/chopin-&-mozart-signature-thumb-hazel.jpg" alt="Golf Island PIK" /></a>
+                                            <a href=""><h6>Hazel</h6></a>
+                                            <p>Cluster: Chopin & Mozart Signature</p>
+                                        </div>
+                                        <div class="col-6 col-lg-3 productCard">
+                                            <a href=""><img class="img-fluid image" src="assets/images/product/GolfIsland/chopin-&-mozart-signature/chopin-&-mozart-signature-thumb-lotus.jpg" alt="Golf Island PIK" /></a>
+                                            <a href=""><h6>Lotus</h6></a>
+                                            <p>Cluster: Chopin & Mozart Signature</p>
+                                        </div>
+                                        <div class="col-6 col-lg-3 productCard">
+                                            <a href=""><img class="img-fluid image" src="assets/images/product/GolfIsland/chopin-&-mozart-signature/chopin-&-mozart-signature-thumb-marigold.jpg" alt="Golf Island PIK" /></a>
+                                            <a href=""><h6>Marigold</h6></a>
+                                            <p>Cluster: Chopin & Mozart Signature</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carouselOneSlider owl-theme tabsContent" id="tabsVPrd-nongolf">
+                            <div class="item">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-6 col-lg-3 productCard">
+                                            <a href=""><img class="img-fluid image" src="assets/images/product/GolfIsland/concerto-beach/concerto-beach-thumb-acacia.jpg" alt="Golf Island PIK" /></a>
+                                            <a href=""><h6>Acacia</h6></a>
+                                            <p>Cluster: Concerto Beach, Harmony Golf, Orchestra Beach & The Piano</p>
+                                        </div>
+                                        <div class="col-6 col-lg-3 productCard">
+                                            <a href=""><img class="img-fluid image" src="assets/images/product/GolfIsland/harmony-golf/harmony-golf-thumb-alpen.jpg" alt="Golf Island PIK" /></a>
+                                            <a href=""><h6>Alpen</h6></a>
+                                            <p>Cluster: Harmony Golf & The Piano</p>
+                                        </div>
+                                        <div class="col-6 col-lg-3 productCard">
+                                            <a href=""><img class="img-fluid image" src="assets/images/product/GolfIsland/the-violin/the-violin-thumb-aralia.jpg" alt="Golf Island PIK" /></a>
+                                            <a href=""><h6>Aralia</h6></a>
+                                            <p>Cluster: Melody Golf, Serenade Lagoon, The Piano, The Violin & Sonata Lagoon</p>
+                                        </div>
+                                        <div class="col-6 col-lg-3 productCard">
+                                            <a href=""><img class="img-fluid image" src="assets/images/product/GolfIsland/concerto-beach/concerto-beach-thumb-lilac.jpg" alt="Golf Island PIK" /></a>
+                                            <a href=""><h6>Lilac</h6></a>
+                                            <p>Cluster: Concerto Beach, Melody Golf, Orchestra Beach, Symphony Golf & Sonata Lagoon</p>
+                                        </div>
+                                        <div class="col-6 col-lg-3 productCard">
+                                            <a href=""><img class="img-fluid image" src="assets/images/product/GolfIsland/harmony-golf/harmony-golf-thumb-mahogany.jpg" alt="Golf Island PIK" /></a>
+                                            <a href=""><h6>Mahogany</h6></a>
+                                            <p>Cluster: Harmony Golf, Melody Golf, Serenda Lagoon, The Piano, The Violin & Sonata Lagoon</p>
+                                        </div>
+                                        <div class="col-6 col-lg-3 productCard">
+                                            <a href=""><img class="img-fluid image" src="assets/images/product/GolfIsland/harmony-golf/harmony-golf-thumb-maple.jpg" alt="Golf Island PIK" /></a>
+                                            <a href=""><h6>Maple</h6></a>
+                                            <p>Cluster: Harmony Golf, Serenda Lagoon & Sonata Lagoon</p>
+                                        </div>
+                                        <div class="col-6 col-lg-3 productCard">
+                                            <a href=""><img class="img-fluid image" src="assets/images/product/GolfIsland/the-piano/the-piano-thumb-oakwood.jpg" alt="Golf Island PIK" /></a>
+                                            <a href=""><h6>Oakwood</h6></a>
+                                            <p>Cluster: The Piano</p>
+                                        </div>
+                                        <div class="col-6 col-lg-3 productCard">
+                                            <a href=""><img class="img-fluid image" src="assets/images/product/GolfIsland/concerto-beach/concerto-beach-thumb-olive.jpg" alt="Golf Island PIK" /></a>
+                                            <a href=""><h6>Olive</h6></a>
+                                            <p>Cluster: Concerto Beach, Harmony Golf, Orchestra Beach, Symphony Golf &The Piano</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-6 col-lg-3 productCard">
+                                            <a href=""><img class="img-fluid image" src="assets/images/product/GolfIsland/allegro/allegro-thumb-orchid.jpg" alt="Golf Island PIK" /></a>
+                                            <a href=""><h6>Orchid</h6></a>
+                                            <p>Cluster: Alegro</p>
+                                        </div>
+                                        <div class="col-6 col-lg-3 productCard">
+                                            <a href=""><img class="img-fluid image" src="assets/images/product/GolfIsland/concerto-beach/concerto-beach-thumb-palm.jpg" alt="Golf Island PIK" /></a>
+                                            <a href=""><h6>Palm</h6></a>
+                                            <p>Cluster: Concerto Beach, Serenade Lagoon, The Violin & Sonata Lagoon</p>
+                                        </div>
+                                        <div class="col-6 col-lg-3 productCard">
+                                            <a href=""><img class="img-fluid image" src="assets/images/product/GolfIsland/concerto-beach/concerto-beach-thumb-papyrus.jpg" alt="Golf Island PIK" /></a>
+                                            <a href=""><h6>Papyrus</h6></a>
+                                            <p>Cluster: Concerto Beach, Harmony Golf, Orchestra Beach, Symphony Golf, The Piano & The Violin</p>
+                                        </div>
+                                        <div class="col-6 col-lg-3 productCard">
+                                            <a href=""><img class="img-fluid image" src="assets/images/product/GolfIsland/harmony-golf/harmony-golf-thumb-pine.jpg" alt="Golf Island PIK" /></a>
+                                            <a href=""><h6>Pine</h6></a>
+                                            <p>Cluster: Harmony Golf, Melody Golf, Orchestra Beach, Serenade Lagoon, Symphone Golf, The Violin & Sonata Lagoon</p>
+                                        </div>
+                                        <div class="col-6 col-lg-3 productCard">
+                                            <a href=""><img class="img-fluid image" src="assets/images/product/GolfIsland/symphony-golf/symphony-golf-thumb-rosewood.jpg" alt="Golf Island PIK" /></a>
+                                            <a href=""><h6>Rosewood</h6></a>
+                                            <p>Cluster: Symphony Golf</p>
+                                        </div>
+                                        <div class="col-6 col-lg-3 productCard">
+                                            <a href=""><img class="img-fluid image" src="assets/images/product/GolfIsland/melody-golf/melody-golf-thumb-walnut.jpg" alt="Golf Island PIK" /></a>
+                                            <a href=""><h6>Walnut</h6></a>
+                                            <p>Cluster: Melody Golf</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carouselOneSlider owl-theme tabsContent" id="tabsVPrd-komersial">
+                            <div class="item">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-6 col-lg-3 productCard">
+                                            <a href=""><img class="img-fluid image" src="assets/images/product/GolfIsland/beach-boulevard/beach-boulevard-type-01.jpg" alt="Golf Island PIK" /></a>
+                                            <a href=""><h6>Beach Boulevard</h6></a>
+                                            <p>Beach Boulevard</p>
+                                        </div>
+                                        <div class="col-6 col-lg-3 productCard">
+                                            <a href=""><img class="img-fluid image" src="assets/images/product/GolfIsland/golf-island-boulevard/golf-island-boulevard-type-01.jpg" alt="Golf Island PIK" /></a>
+                                            <a href=""><h6>Golf Island Boulevard</h6></a>
+                                            <p>Golf Island Boulevard</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Ebony 2 -->
+                <div class="vpwrap" data-aos="fade-up" data-aos-duration="1300">
+                    <div class="compTitle pb-lg-5p">
+                        <h3>Ebony 2</h3>
+                    </div>
+                    <div class="carouselOneSlider owl-theme">
+                        <div class="item">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-6 col-lg-3 productCard">
+                                        <a href=""><img class="img-fluid image" src="assets/images/product/Ebony2/3-lantai-city-view/3-lantai-city-view-type-01.jpg" alt="Golf Island PIK" /></a>
+                                        <a href=""><h6>City View</h6></a>
+                                        <p>3 Lantai City View</p>
+                                    </div>
+                                    <div class="col-6 col-lg-3 productCard">
+                                        <a href=""><img class="img-fluid image" src="assets/images/product/Ebony2/3-lantai-sea-view/3-lantai-sea-view-type-01.jpg" alt="Golf Island PIK" /></a>
+                                        <a href=""><h6>Dual View</h6></a>
+                                        <p>3 Lantai Sea View</p>
+                                    </div>
+                                    <div class="col-6 col-lg-3 productCard">
+                                        <a href=""><img class="img-fluid image" src="assets/images/product/Ebony2/soho/soho-type-01.jpg" alt="Golf Island PIK" /></a>
+                                        <a href=""><h6>SOHO</h6></a>
+                                        <p>SOHO</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Image -->
+            <div class="col-lg-12 pt-lg-5p pb-lg-0 px-0 virtualImage" data-aos="fade-in" data-aos-duration="1300">
+                <div class="background">
+                    <img class="img-fluid d-none d-lg-block" src="assets/images/virtual/virtualImages02.jpg" alt="Golf Island PIK" />
+                    <img class="img-fluid d-block d-lg-none" src="assets/images/virtual/virtualImagesMobile02.jpg" alt="Golf Island PIK" />
+                    <div class="overlay"></div>
+                </div>
+            </div>
+
+            <!-- Contact -->
+            <div class="col-lg-12 py-lg-10p px-lg-5p virtualContact" data-aos="fade-up" data-aos-duration="1300">
+                <img class="img-fluid background d-none d-lg-block" src="assets/images/virtual/virtualImages03.jpg" alt="Golf Island PIK" />
+                <div class="wrap boxc">
+                    <div class="compTitle">
+                        <img class="img-fluid icon d-none d-lg-block" src="assets/images/icon/icon20.png" alt="Golf Island PIK" />
+                        <img class="img-fluid icon d-block d-lg-none" src="assets/images/icon/icon20-green.png" alt="Golf Island PIK" />
+                        <h3>Tertarik dengan<br /><i>produk</i> kami?</h3>
+                        <img class="img-fluid image d-block d-lg-none" src="assets/images/virtual/virtualImagesMobile03.jpg" alt="Golf Island PIK" />
+                        <a class="btnLightGreen" href="kontak.html">Hubungi Kami</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+	
+	<!-- Footer -->
+    <div class="compBaT boxShadow">
+        <a id="compBaTTop" class="m-compBaTTop" href="#goTop">
+            <img class="img-fluid" src="assets/images/icon/arrowTop.png" alt="Golf Island PIK" />
+            <p>KE ATAS</p>
+        </a>
+        <a href="">
+            <img class="img-fluid" src="assets/images/icon/iconDownload.png" alt="Golf Island PIK" />
+            <p>E-BROCHURE</p>
+        </a>
+        <a id="compBaTTop" class="lg-compBaTTop" href="#goTop">
+            <img class="img-fluid" src="assets/images/icon/arrowTop.png" alt="Golf Island PIK" />
+            <p>KE ATAS</p>
+        </a>
+    </div>
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 py-lg-5p px-lg-5p description">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-lg-4 logo">
+                            <a href="index.html"><img class="img-fluid" src="assets/images/logoGolfIsland.png" alt="Golf Island PIK" /></a>
+                            <a href="index.html"><img class="img-fluid" src="assets/images/logoEbony2.png" alt="Golf Island PIK" /></a>
+                            <a href="index.html"><img class="img-fluid" src="assets/images/logoAgungSedayuGroupdanSalimGroup.png" alt="Golf Island PIK" /></a>
+                        </div>
+                        <div class="col-12 col-lg-6 info">
+                            <h6>Hubungi Kami</h6>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img class="img-fluid" src="assets/images/icon/iconPoint.png" alt="Golf Island PIK" />
+                                        <p>
+                                            Marketing Gallery Sedayu Indocity:<br />
+                                            Jl. Pantai Indah Kapuk, Boulevard<br />
+                                            Kamal Muara Penjaringan<br />
+                                            Jakarta Utara 14470
+                                        </p>
+                                    </td>
+                                    <td>
+                                        <img class="img-fluid" src="assets/images/icon/iconPhone.png" alt="Golf Island PIK" />
+                                        <p>
+                                            <a href="tel:+62215888000">021 588 8000</a>
+                                        </p>
+                                        <img class="img-fluid" src="assets/images/icon/iconMail.png" alt="Golf Island PIK" />
+                                        <p>
+                                            <a target="_blank" href="mailto:contact@golfisland.com">contact@golfisland.com</a>
+                                            <a target="_blank" href="mailto:contact@ebony2.com">contact@ebony2.com</a>
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="col-12 col-lg-2 social">
+                            <h6>Sosial Media</h6>
+                            <ul>
+                                <li>
+                                    <img class="img-fluid" src="assets/images/icon/iconInstagram.png" alt="Golf Island PIK" />
+                                    <a href="index.html">golfislandofficial</a>
+                                </li>
+                                <li>
+                                    <img class="img-fluid" src="assets/images/icon/iconFacebook.png" alt="Golf Island PIK" />
+                                    <a href="index.html">golf island</a>
+                                </li>
+                                <li>
+                                    <img class="img-fluid" src="assets/images/icon/iconYoutube.png" alt="Golf Island PIK" />
+                                    <a href="index.html">golf island</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 disclaimer text-center bgLightGrey">
+                <p>Pasal sanggahan : Seluruh gambar dan spesifikasi dalam materi promosi ini bukan bagian dari kontrak. Seluruh gambar dan spesifikasi merupakan kondisi terakhir pada masa persiapan materi promosi, perubahan dapat terjadi sewaktu-waktu.</p>
+            </div>
+            <div class="col-lg-12 copyright text-center bgLightGreen colorWhite">
+                <p>Copyright © 2020 Agung Sedayu Group</p>
+            </div>
+        </div>
+    </footer>
+
+  	<!-- CDN JS -->
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+  	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  	<!-- Custom JS -->
+    <script type="text/javascript" src="assets/js/isotope.pkgd.js"></script>
+  	<script type="text/javascript" src="assets/js/script.js"></script>
+  	<script type="text/javascript" src="assets/cssmenu/script.js"></script>
+</body>
+</html>

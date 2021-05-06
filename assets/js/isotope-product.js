@@ -63,7 +63,7 @@
     		};
   		}
   		//append load more button
-  		$grid.after('<div class="col-lg-12 mb-lg-5 text-center"><button id="load-more" class="btnLightGreen">Load More</button></div>');
+  		$grid.after('<div class="col-lg-12 my-lg-5 text-center"><button id="load-more" class="btnLightGreen">Load More</button></div>');
   		//when load more button clicked
   		$("#load-more").click(function() {
     		if ($('#filters').data('clicked')) {

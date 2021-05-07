@@ -173,6 +173,8 @@ $('.carouselSlideSlider').addClass('owl-carousel owl-theme').owlCarousel({
 	margin: 0,
 	responsiveClass: true,
 	autoplay: true,
+	autoplaySpeed: 3000,
+	autoplayTimeout: 8000,
 	loop: true,
 	nav: true,
 	dots: true,
@@ -203,6 +205,31 @@ $('.carouselProductSlider').addClass('owl-carousel owl-theme').owlCarousel({
 	navText: [
 		"<img src='https://golfislandpik.netlify.app/assets/images/icon/arrowLeftWhite.png'>",
 		"<img src='https://golfislandpik.netlify.app/assets/images/icon/arrowRightWhite.png'>"
+	],
+	responsive:{
+		0: {
+			items: 1
+		},
+		600: {
+			items: 1
+		},
+		1000: {
+			items: 1
+		}
+	}
+});
+$('.carouselHomeLocation').addClass('owl-carousel owl-theme').owlCarousel({
+	margin: 0,
+	responsiveClass: true,
+	autoplay: true,
+	loop: true,
+	nav: true,
+	dots: true,
+	animateOut: 'fadeOut',
+	autoplayTimeout: 3000,
+	navText: [
+		"<img src='https://golfislandpik.netlify.app/assets/images/icon/arrowLeft.png'>",
+		"<img src='https://golfislandpik.netlify.app/assets/images/icon/arrowRight.png'>"
 	],
 	responsive:{
 		0: {

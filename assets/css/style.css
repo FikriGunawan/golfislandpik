@@ -780,6 +780,7 @@
 		#mainDeveloper .developerVMaC .tabsDeveloper #tabsNav a li img{width: 60%;}
 		#mainDeveloper .developerVMaC .tabsDeveloper #tabsNav a li p{margin-bottom: 0;color: #fff;}
 		#mainDeveloper .developerVMaC .tabsDeveloper .tabsContent{display: none;}
+		#mainDeveloper .developerVMaC .tabsDeveloper .tabsContent.active{display: block;}
 		#mainDeveloper .developerVMaC .tabsDeveloper .tabsContent .info{position: absolute;padding: 0 4%;top: 57%;left: 0;width: 50%;height: 19vh;overflow-y: auto;}
 		#mainDeveloper .developerVMaC .tabsDeveloper .tabsContent .info p{color: #fff;}
 		#mainDeveloper .developerVMaC .tabsDeveloper .imageDef,#mainDeveloper .developerVMaC .tabsDeveloper .tabsContent .image{position: absolute;top: -31%;right: 0;width: 47%;height: 68vh;object-fit: cover;}

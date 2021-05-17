@@ -69,7 +69,7 @@ AOS.init();
 	// Developer > VMaC
   $(function(tabs){
 		/* Content Hide and Show*/
-    $('#mainDeveloper .developerVMaC .tabsDeveloper #tabsNav .navList').click(function(){
+    $('#mainDeveloper .developerVMaC .tabsDeveloper #tabsNav .navList').hover(function(){
       $('#mainDeveloper .developerVMaC .tabsDeveloper .tabsContent').hide();
 			$('#mainDeveloper .developerVMaC .tabsDeveloper .imageDef').hide();
       $("#mainDeveloper .developerVMaC .tabsDeveloper #tabsNav .navList").removeClass("active");

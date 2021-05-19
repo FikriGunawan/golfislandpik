@@ -839,8 +839,8 @@
 			#mainDeveloper .developerProject .mobileDP .carouselSlideSlider{margin-bottom: 20vh;padding-bottom: 5vh;}
 			#mainDeveloper .developerProject .mobileDP .carouselSlideSlider .item .wrap .cardLogo{width: 49%;}
 			#mainDeveloper .developerProject .mobileDP .carouselSlideSlider .owl-nav{top: unset;bottom: 0;left: 0;right: 0;width: 100%;height: 5vh;}
-			#mainDeveloper .developerProject .mobileDP .carouselSlideSlider .owl-prev{width: 10%;}
-			#mainDeveloper .developerProject .mobileDP .carouselSlideSlider .owl-next{width: 10%;}
+			#mainDeveloper .developerProject .mobileDP .carouselSlideSlider .owl-prev{width: 10%;left: 0;}
+			#mainDeveloper .developerProject .mobileDP .carouselSlideSlider .owl-next{width: 10%;right: 0;}
 			#mainDeveloper .developerProject .mobileDP .carouselSlideSlider .owl-dots{margin: 0 auto;top: unset;bottom: 0;left: 0;right: 0;width: 40%;}
 		/* Site */
 			#mainDeveloper .developerSite .background{height: 50vh;}
